@@ -1,0 +1,4 @@
+Options +Indexes
+Options +FollowSymlinks
+
+DirectoryIndex install.php

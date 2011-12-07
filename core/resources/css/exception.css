@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+body {
+	font-family: sans-serif; font-size: 14px;
+}
+
+.title {
+	background: #006699; color: #ffffff;
+}
+
+hr {
+	border: solid 1px #000000;
+}

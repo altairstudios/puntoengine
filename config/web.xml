@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Configuration xml to call servlet controllers
+	@category config
+	@author Juan Benavides Romero <jbalde@gmail.com>
+	@since 0.3
+-->
+<Web>
+	<!-- Config section -->
+	<Config>
+		<!-- activate true for show detailed error trace in error page -->
+		<Debug activate="true" />
+	</Config>
+	<!-- Servlets container -->
+	<Servlets>
+		<!-- Admin servlet -->
+		<Servlet>
+			<Name>Admin</Name>
+			<Class>AdminController</Class>
+			<Namespace>core.admin</Namespace>
+			<Patterns>
+				<Pattern>/admin</Pattern>
+				<Pattern>/admin/*</Pattern>
+			</Patterns>
+			<Description>Framework administration</Description>
+		</Servlet>
+		<!-- Home example servlet -->
+		<Servlet>
+			<Name>Test</Name>
+			<Class>TestController</Class>
+			<Namespace>servlet</Namespace>
+			<Patterns>
+				<Pattern>/</Pattern>
+				<Pattern>/test</Pattern>
+			</Patterns>
+			<Description>Page with many examples</Description>
+		</Servlet>
+	</Servlets>
+</Web>

@@ -1,0 +1,22 @@
+Version 0.4.0
+	- New controller system against servlet system
+	- New Object class to base of all objects
+
+Version 0.2.1
+    - Fixed a problem with virtual path autoprocessor when the path is a root path same "/"
+	- Added files licenses for GPL3
+
+Version 0.2.0
+    - Added this change log
+    - Added virtual path (accesible in the browser) at the kernel
+    - Added servlet url in a class attribute
+    - Added detailed exception trace where are configured in web.xml
+    - Added in web.xml a config section with debug mode
+    - Added debug atribute in servlet class to realice the traces if the project are in debug mode
+    - Added base redirect same a aspnet. If redirect url starts with "~/", the url take the base project url
+    - Added masterpage functionality with secction page and dinamic code same include and php code
+    - Added functionality when a path has ~/ chageit for virtual path same a dotnet with runat server
+    - Updated the error page message that are reference at IDCS Server and change its for "Punto Engine Server"
+    - Updated the HomeController class to a TestController with many examples of templates use with masterpage
+    - Fixed the some exception pages showed when have a multiple errors. Now stops the process when the error throwed
+    - Delete temporaly the PepAdminController from web.xml to can't access it

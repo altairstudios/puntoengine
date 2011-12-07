@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Configuration xml to administrator access
+	@category config
+	@author Juan Benavides Romero <jbalde@gmail.com>
+	@since 0.3
+-->
+<Admin>
+    <Users>
+	<User>
+	    <Credentials user="admin" pass="1234"/>
+	</User>
+    </Users>
+</Admin>

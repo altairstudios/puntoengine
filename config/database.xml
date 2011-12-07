@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Configuration xml to access to database
+	@category config
+	@author Juan Benavides Romero <jbalde@gmail.com>
+	@since 0.3
+-->
+<Database>
+    <Connection>
+		<!-- Server of the database -->
+		<Server>localhost</Server>
+		<!-- User of the database. In local machines usualy are root user -->
+		<User>user</User>
+		<!-- Password of the user database -->
+		<Password>pass</Password>
+		<!-- Database name -->
+		<DB>database</DB>
+    </Connection>
+</Database>
